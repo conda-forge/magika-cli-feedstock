@@ -10,7 +10,7 @@ source:
   sha256: 87fd85f33d2c644d657de024b83cdc36bbdcf4a2961be5e93fe74e081477076c
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
@@ -87,7 +87,7 @@ about:
     Rust on top of the `magika` library crate.
   license: Apache-2.0
   license_file:
-    - rust/cli/LICENSE
+    - LICENSE
     - THIRDPARTY.yml
   documentation: https://securityresearch.google/magika/
   repository: https://github.com/google/magika
