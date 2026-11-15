@@ -11,6 +11,8 @@ source:
 
 build:
   number: 2
+  # https://github.com/conda-forge/onnxruntime-feedstock/blob/2313412bb8d031f6990cb0849499ea623c0521fd/recipe/recipe.yaml#L58
+  skip: osx and x86_64
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
