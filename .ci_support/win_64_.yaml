@@ -8,6 +8,8 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2022
+onnxruntime_cpp:
+- 1.32.0
 rust_compiler:
 - rust
 target_platform:
